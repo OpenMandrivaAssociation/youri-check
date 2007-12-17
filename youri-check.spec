@@ -12,7 +12,6 @@ Source:		http://youri.zarb.or/download/%{name}-%{version}.tar.bz2
 Url:		http://youri.zarb.org
 BuildRequires:	perl(Youri::Utils)
 BuildArch:	    noarch
-BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 youri-check is a generic package checking tools. It runs a list of tests on a

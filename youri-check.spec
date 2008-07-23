@@ -1,6 +1,6 @@
 %define name	youri-check
 %define version 0.10
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name:		%{name}
 Version:	%{version}

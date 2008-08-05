@@ -10,7 +10,7 @@ License:	GPL or Artistic
 Group:		Development/Other
 Source:		http://youri.zarb.or/download/%{name}-%{version}.tar.bz2
 Url:		http://youri.zarb.org
-BuildRequires:	perl(Youri::Utils)
+BuildRequires:	perl-Youri-Utils
 BuildArch:	    noarch
 BuildRoot:	    %{_tmppath}/%{name}-%{version}
 

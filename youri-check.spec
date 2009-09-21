@@ -1,6 +1,6 @@
 %define name	youri-check
 %define version 0.10
-%define release %mkrel 4
+%define release %mkrel 5
 
 %define _provides_exceptions perl(Youri::Check::.*)
 %define _requires_exceptions perl(Youri::\\(Check::.*\\|BTS::Bugzilla\\))

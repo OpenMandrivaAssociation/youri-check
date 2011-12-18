@@ -1,6 +1,6 @@
 %define name	youri-check
-%define version 0.10
-%define release %mkrel 6
+%define version 0.10.1
+%define release %mkrel 1
 
 %define _provides_exceptions perl(Youri::Check::.*)
 %define _requires_exceptions perl(Youri::\\(Check::.*\\|BTS::Bugzilla\\))
@@ -60,5 +60,6 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/youri
 %{_bindir}/youri-check
 %{_mandir}/man1/*
+%{_mandir}/man3/*
 %{_datadir}/youri
 %{_sysconfdir}/bash_completion.d/%{name}

@@ -12,7 +12,7 @@ Summary:	Youri check tool
 License:	GPL or Artistic
 Group:		Development/Other
 Source:		http://youri.zarb.or/download/%{name}-%{version}.tar.bz2
-Url:		http://youri.zarb.org
+Url:		https://youri.zarb.org
 BuildRequires:	perl-Youri-Utils
 # avoid mandriva fork
 Requires:	    perl-Youri-Config
